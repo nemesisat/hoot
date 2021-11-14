@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Test_CommissionSystem::commission_state" title="Commission" translate="title" module="Test_CommissionSystem" action="commission_state/productal" sortOrder="18" parent="Magento_Catalog::inventory"  resource="Test_CommissionSystem::CommissionSystem"/>
+    </menu>
+</config>
