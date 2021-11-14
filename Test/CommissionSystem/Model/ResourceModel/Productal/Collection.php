@@ -1,5 +1,5 @@
 <?php
-namespace Altayer\CustomCatal\Model\ResourceModel\Productal;
+namespace Test\CommissionSystem\Model\ResourceModel\Productal;
 
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
@@ -12,8 +12,8 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
     protected function _construct()
     {
         $this->_init(
-            'Altayer\CustomCatal\Model\Productal',
-            'Altayer\CustomCatal\Model\ResourceModel\Productal'
+            'Test\CommissionSystem\Model\Productal',
+            'Test\CommissionSystem\Model\ResourceModel\Productal'
         );
     }
 }

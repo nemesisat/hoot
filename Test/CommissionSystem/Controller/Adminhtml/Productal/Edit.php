@@ -10,7 +10,7 @@ class Edit extends \Test\CommissionSystem\Controller\Adminhtml\Productal
     protected $resultPageFactory;
 
     /**
-     * @var \Altayer\CustomCatal\Model\Productal
+     * @var \Test\CommissionSystem\Model\Productal
      */
     protected $productal;
 

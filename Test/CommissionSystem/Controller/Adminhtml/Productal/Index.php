@@ -1,5 +1,5 @@
 <?php
-namespace Altayer\CustomCatal\Controller\Adminhtml\Productal;
+namespace Test\CommissionSystem\Controller\Adminhtml\Productal;
 
 class Index extends \Magento\Backend\App\Action
 {

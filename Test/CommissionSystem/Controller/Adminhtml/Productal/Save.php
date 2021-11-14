@@ -13,7 +13,7 @@ class Save extends \Magento\Backend\App\Action
     protected $dataPersistor;
 
     /**
-     * @var \Altayer\CustomCatal\Model\Productal
+     * @var \Test\CommissionSystem\Model\Productal
      */
     protected $productal;
 
